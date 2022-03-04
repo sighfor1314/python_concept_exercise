@@ -1,0 +1,15 @@
+day=eval(input("請輸入天數:"))
+if(day%7==0):
+    print("星期日")
+elif(day%7==1):
+    print("星期一")
+elif(day%7==2):
+    print("星期二")
+elif(day%7==3):
+    print("星期三")
+elif(day%7==4):
+    print("星期四")
+elif(day%7==5):
+    print("星期五")
+else:
+    print("星期六")

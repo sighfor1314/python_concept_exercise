@@ -1,0 +1,9 @@
+hour=eval(input("請輸入時數:"))
+if(hour<40):
+    print("時數%d薪水為%d:"%(hour,hour*150*0.8))
+elif(hour==40):
+    print("時數%d薪水為%d:"%(hour,hour*150))
+elif(hour<=50):
+    print("時數%d薪水為%d:"%(hour,hour*150*1.2))
+else:
+    print("時數%d薪水為%d:"%(hour,hour*150*1.6))

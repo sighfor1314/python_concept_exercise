@@ -1,0 +1,13 @@
+a=10
+b=18
+c=5
+s=a+b-c
+print("a="+str(s))
+s=2*a+3-c
+print("b="+str(s))
+s=b*c+20/b
+print("c="+str(s))
+s=a%c*b+10
+print("d="+str(s))
+s=a**c-a*b*c
+print("e="+str(s))
